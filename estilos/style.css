@@ -1,17 +1,27 @@
+/*
+https://colorhunt.co/palette/3a10784e31aa2f58cd3795bd
+*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Oswald', sans-serif; 
+    border: 1px solid black;
+
+}
+body{
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .nav_main {
+    font-family: 'Oswald', sans-serif; 
     /* background: linear-gradient(to right, grey, rgb(41, 41, 41)); */
-    background-color: rgb(52, 79, 202);
+    background-color: #2F58CD;
     padding-right: 10px;
     display: flex;
     font-size:0.6cm;
-
+    width: 1920px;
+    height: 160px;
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
@@ -19,29 +29,40 @@
     width: 90px;
 }
 
-.title{
+#title{
     margin-left: 8px;
-}
-
-
-.navegador{
-    display: flex;
-    margin: 2rem;
-    margin-left: 20px;
-    margin: auto;
 }
 
 #buscar{
     height: 35px;
-    width: 200px;
+    width: 400px;
     padding: 20px;
+    margin: 2rem;
 }
 
-.div_logo_titulo, .ul_nav, .ul_nav_2, .navegador{
+.div_logo_titulo, .ul_nav, .ul_nav_2, .navegador, .div_logo_tienda{
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
+
+.navegador{
+    display: flex;
+    margin: 2rem;
+    margin-left: 100px;
+    margin: auto;
+}
+
+.div_logo_titulo{
+    margin: 2rem 2rem 2rem 1rem    ;
+}
+
+.div_logo_tienda{
+    display: flex;
+    margin: 2rem;
+}
+
 
 .ul_nav_2{
     list-style-type: none;
@@ -55,12 +76,12 @@
 }
 
 .li_nav{
-    margin: 1rem;
+    margin: 2rem;
     
 }
 
 #img_principal{
-    width: 1366px;
+    width: 1920px;
     height: 400px;
 }
 
@@ -69,8 +90,7 @@
     margin-left: 10px;
     margin-right: 10px;
 }
-
-.divstyle {
+/* .divstyle {
     display: flex;
     display: inline-block;
     border: 1px solid black;
@@ -79,9 +99,9 @@
     padding: .5rem  ;
     text-align: center;
     max-width: 200px;
-}
+} */
 
-.Racing{
+/* .Racing{
     background-color: aqua;
 }
 
@@ -99,5 +119,5 @@
 
 .SanLorenzo{
     background-color: violet;
-}
+} */
 
